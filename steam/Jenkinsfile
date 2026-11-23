@@ -1,4 +1,3 @@
-
 pipeline {
     agent any
 
@@ -8,7 +7,6 @@ pipeline {
                 powershell './steam/gracze.ps1'
             }
         }
-
         stage('Nowosci od tworcow') {
             steps {
                 powershell './steam/nowosci.ps1'
