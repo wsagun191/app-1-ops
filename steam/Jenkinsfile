@@ -7,13 +7,11 @@ pipeline {
                 powershell './steam/gracze.ps1'
             }
         }
-
         stage('Nowosci od tworcow') {
             steps {
                 powershell './steam/nowosci.ps1'
             }
         }
-
         stage('Opinie graczy') {
             steps {
                 powershell './steam/opinie.ps1'
