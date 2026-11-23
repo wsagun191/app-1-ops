@@ -6,7 +6,7 @@ pipeline {
             steps {
                 powershell '''
                     $ErrorActionPreference = "Stop"
-                    $appid = 730
+                    $appid = 570
 
                     $url = "https://api.steampowered.com/ISteamUserStats/GetNumberOfCurrentPlayers/v1/?appid=$appid"
 
